@@ -2,12 +2,6 @@
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
-[Bb]uilds/
-[Bb]uild/
-[Bb]uilds-[^/]*/ 
-[Bb]uilds_[^/]*/
-[Bb]uilds-[^/]*
-[Bb]uilds_[^/]*
 
 # But NOT the root Build folder (unignore)
 !/[Bb]uild/
@@ -51,11 +45,6 @@ Thumbs.db
 
 # Asset meta data should be tracked
 # *.meta
-
-# Ignore builds except the root Build folder and build/1.1
-/[Bb]uilds/
-!/[Bb]uild/
-!/[Bb]uild/1.1/
 
 # Ignore addressable build data
 /Assets/AddressableAssetsData/*/Build*/ 
