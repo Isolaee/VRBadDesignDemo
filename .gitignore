@@ -1,0 +1,94 @@
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uilds/
+[Bb]uild/
+[Bb]uilds-[^/]*/ 
+[Bb]uilds_[^/]*/
+[Bb]uilds-[^/]*
+[Bb]uilds_[^/]*
+
+# But NOT the root Build folder (unignore)
+!/[Bb]uild/
+!/[Bb]uild/1.1/
+
+# User-specific files
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# Unity auto-generated files
+*.pidb.meta
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Crash reports
+sysinfo.txt
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+*.sln.iml
+
+# Logs
+*.log
+
+# Asset meta data should be tracked
+# *.meta
+
+# Ignore builds except the root Build folder and build/1.1
+/[Bb]uilds/
+!/[Bb]uild/
+!/[Bb]uild/1.1/
+
+# Ignore addressable build data
+/Assets/AddressableAssetsData/*/Build*/ 
+/Assets/AddressableAssetsData/*/info_build.txt
+
+# Ignore Collaborate files
+.collab/
+
+# Ignore PlasticSCM files
+PlasticSCM/
+
+# Ignore JetBrains Rider project files
+.idea/
+
+# Ignore Unity Cloud Build files
+unitycloudbuild/
+
+# Ignore crash and error logs
+*.stacktrace
+
+# Ignore Unity cache
+UnityCache/
+
+# Ignore generated documentation
+/Docs/
+
+# Ignore Packages cache
+/Packages/manifest.json
+/Packages/packages-lock.json
+
+# Ignore unwanted asset folders and their meta files
+/Assets/MASH virtual/
+/Assets/MASH virtual.meta
+/Assets/Meshes/
+/Assets/Meshes.meta
+/Assets/HammerScript/
